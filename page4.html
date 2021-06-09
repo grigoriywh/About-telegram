@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/icon_telegram1.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form.css">
+	<script src="script.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Программирование в интернете</title>
+</head>
+
+<body>
+	<header class="top_bar"> 
+		<div class="header">
+			<div class="header_inner">
+			<img src="images/logo_header.png" 
+					width="80px" height="80px" alt="Icon telegram">
+			</div>
+			<div class="logo">
+					<h2>Telegram</h2>
+			</div>
+		</div>
+		<div class="quote">
+			<h4>
+				“Лучшее решение из возможных — самое простое. И наоборот.”
+				<br>                                       — Павел Дуров
+			</h4>
+		</div>
+</header>
+
+
+<div class="intro">
+		<div class="nav">
+			<br><br><a class="btn1" href="index.html">Главная</a>
+			<br><a class="btn2" href="page2.html">Особенности</a>
+			<br><a class="btn3" href="page3.html">Основатель</a>
+			<br><a class="btn4" href="page4.html">JavaScript</a>
+		</div>
+	<div class="intro2">
+		<div class="container">
+			<img src="images/JS.png" 
+			width="150px" height="150px" alt="Icon telegram">
+			<p>
+			JavaScript
+		</p>
+		</div>
+		<div class="arrow">
+			<img src="images/angle-double-down-7-32.png" 
+			alt="Icon telegram">
+		</div>
+	</div>
+</div>
+
+
+
+<div class="content">
+<table>
+<tr>
+	<td valign="top">
+			<div class="input1">
+		<form action="" class="ui-form">
+		<h3>Ввод значений</h3>
+			<div class="form-row">
+			<input type="number" name="x" id="x" size=10 required autocomplete="off"><label for="x">Значение X</label>
+			</div>
+			<div class="form-row">
+			<input type="number" name="y" id="y" size=10 required autocomplete="off"><label for="y">Значение Y</label>
+			</div>
+		<p><input type="button" value="Ввод" onClick="Validate()"></p>
+	</form>
+	</div>
+		 </td>
+	   </td>
+	 <td valign="top" align="center">
+		 <p id="result">
+			<br>Дисциплина Программирование в интернете<br>
+			<br>Студент группы ПИз-20 <br>
+			<br>Балашов Григорий Сергеевич<br>
+			<br>Лабораторная работа №4<br>
+			<br>Разработка JavaScript-программы для вычислений<br>
+			<br> Вариант задания №2<br>
+			<br> Условие: <img src="images/621.jpg" 
+			alt="Variant">
+			<p id="result1">
+				
+			</p>
+		 </p>
+	</td>
+		
+</tr>
+</table>
+
+
+<table>
+	<tr>
+		<td valign="top">
+				<div class="input1">
+			<form action="" class="ui-form">
+			<h3>Ввод массива</h3>
+			<div class="form-row">
+				<input type="number" name="arr0" id="arr0" size=10 value="17" required autocomplete="off"><label for="arr0">Значение массива [0]</label>
+				</div>
+				<div class="form-row">
+				<input type="number" name="arr1" id="arr1" size=10 value="7" required autocomplete="off"><label for="arr1">Значение массива [1]</label>
+				</div>
+				<div class="form-row">
+				<input type="number" name="arr2" id="arr2" size=10 value="28" required autocomplete="off"><label for="arr2">Значение массива [2]</label>
+				</div>
+				<div class="form-row">
+					<input type="number" name="arr3" id="arr3" size=10 value="-17" required autocomplete="off"><label for="arr3">Значение массива [3]</label>
+					</div>
+					<div class="form-row">
+					<input type="number" name="arr4" id="arr4" size=10 value="4" required autocomplete="off"><label for="arr4">Значение массива [4]</label>
+					</div>
+					<div class="form-row">
+					<input type="number" name="arr5" id="arr5" size=10 value="99" required autocomplete="off"><label for="arr5">Значение массива [5]</label>
+					</div>
+					<div class="form-row">
+					<input type="number" name="arr6" id="arr6" size=10 value="-8" required autocomplete="off"><label for="arr6">Значение массива [6]</label>
+					</div>
+					<div class="form-row">
+					<input type="number" name="arr7" id="arr7" size=10 value="55" required autocomplete="off"><label for="arr7">Значение массива [7]</label>
+					</div>
+				
+			<p><input type="button" value="Ввод" onClick="array()"></p>
+		</form>
+		</div>
+			 </td>
+		   </td>
+		 <td valign="top" align="center">
+			 <p id="result">
+				<br>Дисциплина Программирование в интернете<br>
+				<br>Студент группы ПИз-20 <br>
+				<br>Балашов Григорий Сергеевич<br>
+				<br>Лабораторная работа №5<br>
+				<br>Работа с массивами<br>
+				<br> Вариант задания №2<br>
+				<br> Условие: Дан целочисленный массив. По нажатию кнопки "Результат" <br>найти в массиве последний отрицательный элемент и <br>количество отрицательных, если они есть в массиве, <br>если нет – вывести соответствующее сообщение.
+				<p id="result2">
+					
+				</p>
+			 </p>
+		</td>
+			
+	</tr>
+	</table>
+
+
+
+
+	<div class="footer1">
+		<div class="logos">
+			<p>
+				<br><br><br><br><br><br><br><br><br><br><br><br>Дисциплина "Программирование в интернете"
+				<br>Студент группы ПИз-20 
+				<br>Балашов Григорий
+			</p>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
